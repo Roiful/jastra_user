@@ -1,6 +1,6 @@
-# myapp
+# Jastra ( Jasa Titip Warga Jepara )
 
-A new Flutter project.
+Ini adalah desain aplikas untuk user.
 
 ## Getting Started
 
