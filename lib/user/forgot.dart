@@ -208,64 +208,6 @@ class _ForgotState extends State<Forgot> {
                             ),
 
                             Container(
-                              margin: EdgeInsets.only(top: 40),
-                              child: Align(
-                                alignment: Alignment.topCenter,
-                                child: Column(
-                                  mainAxisAlignment: MainAxisAlignment.start,
-                                  crossAxisAlignment: CrossAxisAlignment.center,
-                                  children: [
-                                    Text(
-                                      '- OR Continue with -',
-                                      style: TextStyle(
-                                        fontWeight: FontWeight.w500,
-                                        fontSize: 12,
-                                        color: Color(0xFF575757),
-                                      ),
-                                    ),
-                                    SizedBox(
-                                      height: 20,
-                                    ),
-                                    SizedBox(
-                                      width: 185,
-                                      child: Row(
-                                        mainAxisAlignment:
-                                            MainAxisAlignment.center,
-                                        crossAxisAlignment:
-                                            CrossAxisAlignment.center,
-                                        children: [
-                                          Container(
-                                            decoration: BoxDecoration(
-                                              border: Border.all(
-                                                color: Color(0xFFDCC8E9),
-                                              ),
-                                              borderRadius:
-                                                  BorderRadius.circular(50),
-                                              color: Color(0xFFFCF3F6),
-                                            ),
-                                            child: GestureDetector(
-                                              onTap: () {
-                                                // Handle action when Google sign-in button is pressed
-                                              },
-                                              child: Container(
-                                                width: 54,
-                                                height: 54,
-                                                padding: EdgeInsets.all(14),
-                                                child: Image.network(
-                                                  'https://drive.google.com/uc?id=19_NknzR-06OWa9Qp_f3JRsf9BIatCqeK',
-                                                  fit: BoxFit.cover,
-                                                ),
-                                              ),
-                                            ),
-                                          ),
-                                        ],
-                                      ),
-                                    ),
-                                  ],
-                                ),
-                              ),
-                            ),
-                            Container(
                               margin: EdgeInsets.fromLTRB(0, 20, 0, 0),
                               child: Align(
                                 alignment: Alignment.topCenter,
